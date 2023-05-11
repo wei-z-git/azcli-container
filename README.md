@@ -12,5 +12,5 @@ docker run -it --name test2 registry.cn-shanghai.aliyuncs.com/wei-z/azcli-contai
 az login
 az account set --subscription <subscription_id>
 
-az aks get-credentials --resource-group <resource-group-name> --name <aks-cluster-name> -a
+az aks get-credentials --resource-group <resource-group-name> --name <aks-cluster-name> --admin
 ```
